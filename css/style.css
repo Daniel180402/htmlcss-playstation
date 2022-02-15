@@ -39,11 +39,28 @@
     background-image: url("../img/returnal-listing-thumb-01-ps5.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
-    
+    background-position: center;   
 }
 
 #game-selection{
+    width: 100%;
+    height: 100%;
+}
+
+#playstation5{
+    width: 100%;
+}
+
+#new-release-jumbo{
+    width: 100%;
+    height: calc(100vh - 110px);
+    background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#new-release{
     width: 100%;
     height: 100%;
 }
