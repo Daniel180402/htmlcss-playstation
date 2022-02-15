@@ -1,0 +1,27 @@
+
+
+#header-top{
+    height: 40px;
+    line-height: 40px;
+    width: 100%;
+}
+
+#header-top img{
+    width: 100px;
+}
+
+#header-bottom{
+    height: 70px;
+    width: 100%;
+    background-color: aqua;
+}
+
+#jumbotron{
+    width: 100%;
+    height: calc(100vh - 110px);
+    background-image: url("../img/returnal-listing-thumb-01-ps5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
