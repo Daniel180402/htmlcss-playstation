@@ -1,4 +1,8 @@
-
+.box-riempitore{
+    background-color: pink;
+    width: 100%;
+    height: 200px;
+}
 
 #header-top{
     height: 40px;
@@ -24,4 +28,9 @@
     background-size: cover;
     background-position: center;
     
+}
+
+#game-selection{
+    width: 100%;
+    height: 200px;
 }
