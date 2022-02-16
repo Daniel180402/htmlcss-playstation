@@ -21,6 +21,9 @@
     background-color: #161c3b;
 }
 
+.bg-light-blu{
+    background-color: #00439c;
+}
 
 #header-top{
     height: 40px;
@@ -73,4 +76,8 @@
 #playstation-plus{
     width: 100%;
     height: 100%;
+}
+
+#ps-logo{
+    filter: invert(100%) sepia(50%) saturate(0%) hue-rotate(114deg) brightness(200%);
 }
