@@ -35,15 +35,9 @@
     width: 100px;
 }
 
-#header-bottom{
-    height: 70px;
-    width: 100%;
-    background-color: aqua;
-}
-
 #jumbotron{
     width: 100%;
-    height: calc(100vh - 110px);
+    height: calc(100vh - 96px);
     background-image: url("../img/returnal-listing-thumb-01-ps5.jpg");
     background-repeat: no-repeat;
     background-size: cover;
