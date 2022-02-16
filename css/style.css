@@ -12,7 +12,12 @@
 }
 
 .ps5-card{
-    width: calc(100% / 5);
+    flex-basis: calc(94% / 5);
+    margin: .5%
+}
+
+.ps5-card .grey-img{
+    filter: grayscale(100%);
 }
 
 .bg-dark-blue{
@@ -80,4 +85,11 @@
 
 #ps-logo{
     filter: invert(100%) sepia(50%) saturate(0%) hue-rotate(114deg) brightness(200%);
+}
+
+@media screen and (max-width: 768px){
+    .ps5-card{
+        flex-basis: calc(94% / 3);
+        margin: .5%
+    }
 }
