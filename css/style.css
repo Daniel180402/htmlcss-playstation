@@ -7,6 +7,10 @@
     height: 600px;
 }
 
+.game-selection-img{
+    transition: all 1s;
+}
+
 .new-release-img, .game-selection-img{
     border-radius: 30px;
 }
@@ -14,10 +18,6 @@
 .ps5-card{
     flex-basis: calc(94% / 5);
     margin: .5%
-}
-
-.ps5-card .grey-img{
-    filter: grayscale(100%);
 }
 
 .bg-dark-blue{
@@ -55,15 +55,6 @@
     background-position: center;   
 }
 
-#game-selection{
-    width: 100%;
-    height: 100%;
-}
-
-#playstation5{
-    width: 100%;
-}
-
 #new-release-jumbo{
     width: 100%;
     height: calc(100vh - 110px);
@@ -85,6 +76,20 @@
 
 #ps-logo{
     filter: invert(100%) sepia(50%) saturate(0%) hue-rotate(114deg) brightness(200%);
+}
+
+.game-selection-img:hover{
+    border:2px solid #00439c;
+    padding: .25rem;
+}
+
+.ps5-card:hover{
+    padding: .5rem;
+    border-bottom:3px solid #00439c;
+}
+
+.new-release-game:hover{
+    padding: .5rem;
 }
 
 @media screen and (max-width: 768px){
